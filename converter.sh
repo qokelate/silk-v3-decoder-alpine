@@ -10,6 +10,8 @@
 #       other value  ----  format, convert a folder, batch conversion support
 # Requirement: gcc ffmpeg
 
+set -ex
+
 # Colors
 RED="$(tput setaf 1 2>/dev/null || echo '\e[0;31m')"
 GREEN="$(tput setaf 2 2>/dev/null || echo '\e[0;32m')"

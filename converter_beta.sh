@@ -10,6 +10,8 @@
 #       other value  ----  format, convert a folder, batch conversion support
 # Requirement: gcc ffmpeg
 
+set -ex
+
 # Colors
 RED="\e[31;1m"
 GREEN="\e[32;1m"
